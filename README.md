@@ -1,1 +1,1 @@
-# fashionMNSTImageClassification
+# fashionMNSITImageClassification
