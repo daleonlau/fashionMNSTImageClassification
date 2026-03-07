@@ -1,6 +1,6 @@
 # fashionMNISTImageClassification
 
-google collab link: https://colab.research.google.com/drive/1zSfN432tLszkExzSlp-v_E1fOTS520XH?usp=sharing
+google collab link: https://colab.research.google.com/drive/1OZl1yPgJj7UK_3X2g31xfZOpJLQ6FpEU?usp=sharing
 
 Questions: (February 8, 2026)
 ## 1. What is the Fashion MNIST dataset?
@@ -27,6 +27,12 @@ Questions: (February 8, 2026)
 - Train for more epochs
 - Use regularization techniques
 - Tune model parameters
+
+Task Enhancement:
+
+Changed the number of neurons in the hidden layer from 128 to 64 and increased epochs to 50. Test accuracy with 64 neurons: 0.8866 (from earlier model) vs 0.1096 with the 2-layer model
+
+Added another hidden layer (128 and 64 neurons) but forgot to train the model before evaluating. Test accuracy with untrained 2 hidden layers: 0.1096 (essentially random guessing)
 
 
 
